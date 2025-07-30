@@ -1,5 +1,4 @@
-# Module 07 – Image Filtering & Edge Detection
-
+# Module 07 – Camera Filters
  **Filename:** `07_camera_filters.py`  
 
 ---
