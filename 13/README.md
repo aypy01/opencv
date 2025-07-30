@@ -47,7 +47,7 @@ Download the required pre-trained weights here:
 
 [![➡️ Module 12](https://img.shields.io/badge/Module-12-000000?style=for-the-badge&logo=github&logoColor=00FF80)](https://github.com/aypy01/opencv/tree/main/12)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![➡️ Credit ](https://img.shields.io/badge/Credits-000000?style=for-the-badge&logo=github&logoColor=00FF80)](https://github.com/aypy01/opencv/tree/main/01)
+[![➡️ Credit ](https://img.shields.io/badge/Credits-000000?style=for-the-badge&logo=github&logoColor=00FF80)](https://github.com/aypy01/opencv/edit/main/README.md)
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
