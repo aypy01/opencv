@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OpenCV Course - NERV Protocol</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Modular and progressive deep dive into OpenCV.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Fonts Integration -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Fira+Code:wght@400;500&family=Inter:wght@400;600&display=swap">
+  
+  <!-- Core Dark Theme Base -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
 
+  <style>
+    :root {
+      /* User Custom Color Palette */
+      --bg-color: #0f0f0f;
+      --panel-bg: #161616;
+      --text-main: #b0b0b0;
+      --text-muted: #777777;
+      --eva-orange: #FF4D00;
+      --eva-orange-dim: rgba(255, 77, 0, 0.2);
+      --accent-green: #00FF80;
+      --border-color: #2a2a2a;
+      --input-bg: #0a0a0a;
+      
+      --font-mono: 'Fira Code', 'Courier New', monospace;
+      --font-sans: 'Inter', 'Segoe UI', Arial, sans-serif;
+      --font-tech: 'Share Tech Mono', monospace;
+
+      /* Mapping To Docsify Internal Variables */
+      --theme-color: var(--eva-orange);
+      --base-background: var(--bg-color);
+      --base-color: var(--text-main);
+      --heading-color: #ffffff;
+      
+      --sidebar-background: var(--panel-bg);
+      --sidebar-name-color: var(--eva-orange);
+      --sidebar-toggle-background: transparent;
+      
+      --code-inline-background: var(--input-bg);
+      --code-inline-color: var(--accent-green);
+    }
+
+    /* Industrial & Brutalist Structural Adjustments */
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-color);
+      color: var(--text-main);
+    }
+
+    /* Sidebar Customization */
+    .sidebar {
+      border-right: 1px solid var(--border-color);
+      font-family: var(--font-tech);
+      letter-spacing: 0.5px;
+    }
+    
+    .sidebar-name {
+      font-family: var(--font-tech) !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      text-shadow: 0 0 8px var(--eva-orange-dim);
+    }
+
+    .sidebar ul li a {
+      color: var(--text-main) !important;
+      font-size: 14px;
+    }
+
+    .sidebar ul li a:hover {
+      color: var(--accent-green) !important;
+      text-decoration: none;
+    }
+
+    .sidebar ul li.active > a {
+      color: var(--eva-orange) !important;
+      border-right: 2px solid var(--eva-orange);
+      font-weight: bold;
+    }
+
+    /* Main Content Layout Typography */
+    .markdown-section {
+      max-width: 850px;
+    }
+
+    .markdown-section h1, .markdown-section h2, .markdown-section h3 {
+      font-family: var(--font-tech);
+      font-weight: 500;
+      letter-spacing: -0.5px;
+      margin-top: 30px;
+    }
+
+    .markdown-section h1 {
+      color: #ffffff;
+      border-bottom: 2px dashed var(--border-color);
+      padding-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .markdown-section h2 {
+      color: var(--eva-orange);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 5px;
+    }
+
+    /* Hyperlinks */
+    .markdown-section a {
+      color: var(--accent-green);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .markdown-section a:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+
+    /* Code Block & Inlines Formatting */
+    .markdown-section code {
+      font-family: var(--font-mono) !important;
+      font-size: 0.9em;
+    }
+
+    .markdown-section pre {
+      background-color: var(--panel-bg) !important;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+    }
+
+    /* Custom Tactical Blockquote */
+    .markdown-section blockquote {
+      border-left: 4px solid var(--eva-orange);
+      background-color: var(--input-bg);
+      color: var(--text-main);
+      padding: 15px;
+      margin: 20px 0;
+    }
+
+    /* Table Formatting */
+    .markdown-section table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+
+    .markdown-section th, .markdown-section td {
+      border: 1px solid var(--border-color);
+      padding: 10px 12px;
+    }
+
+    .markdown-section th {
+      background-color: var(--panel-bg);
+      color: var(--accent-green);
+      font-family: var(--font-tech);
+      text-transform: uppercase;
+    }
+
+    .markdown-section tr:nth-child(even) {
+      background-color: rgba(22, 22, 22, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div id="app">🔄 INITIALIZING PROTOCOL...</div>
+  
+  <script>
+    window.$docsify = {
+      name: 'OPENCV // CORE',
+      repo: 'aypy01/opencv',
+      loadSidebar: true,
+      autoHeader: true,
+      subMaxLevel: 2,
+      themeColor: '#FF4D00'
+    }
+  </script>
+  
+  <!-- Docsify Core Engine -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
